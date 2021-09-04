@@ -11,12 +11,12 @@
 Before clicking on deploy to heroku just click on fork and star just below
 
 <p align="center">
-  <a href="https://github.com/AdityaHalder/Aditya-Player/fork">
-    <img src="https://img.shields.io/github/forks/AdityaHalder/Aditya-Player?label=Fork&style=social">
+  <a href="https://github.com/COBRAXDOP/Aliza-Music-X3/fork">
+    <img src="https://img.shields.io/github/forks/AlizaMusic/AlizaMusic?label=Fork&style=social">
     
   </a>
-  <a href="https://github.com/AdityaHalder/Aditya-Player">
-    <img src="https://img.shields.io/github/stars/AdityaHalder/Aditya-Player?style=social">
+  <a href="https://github.com/COBRAXDOP/Aliza-Music-X3">
+    <img src="https://img.shields.io/github/stars/COBRAXDOP/Aliza-Music-X3?style=social">
   </a>
 </p>
 
@@ -33,7 +33,7 @@ Click the below button to watch the video tutorial on deploying
 
 ### Deploy To Railway 🚄</h5>
 
-[![Deploy+on+Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/AdityaHalder/Aditya-Player/tree/Aditya-Player&envs=SESSION_NAME,BOT_TOKEN,BOT_USERNAME,BOT_NAME,SUPPORT_GROUP,PROJECT_NAME,ARQ_API_KEY,ASSISTANT_NAME,BG_IMAGE,UPDATES_CHANNEL,API_ID,PMPERMIT,API_HASH,SUDO_USERS,DURATION_LIMIT)
+[![Deploy+on+Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/COBRAXDOP/Aliza-Music-X3/tree/Aliza-Music-X3&envs=SESSION_NAME,BOT_TOKEN,BOT_USERNAME,BOT_NAME,SUPPORT_GROUP,PROJECT_NAME,ARQ_API_KEY,ASSISTANT_NAME,BG_IMAGE,UPDATES_CHANNEL,API_ID,PMPERMIT,API_HASH,SUDO_USERS,DURATION_LIMIT)
 
 ###  GET STRING SESSION FROM REPL RUN
 
