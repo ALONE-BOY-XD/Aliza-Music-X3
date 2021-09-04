@@ -3,7 +3,7 @@
   "logo": "https://telegra.ph/file/68ba3f69f145217b02664.jpg",
   "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
   "keywords": ["music", "voicechat", "telegram"],
-  "repository": "https://github.com/AdityaHalder/AdityaPlayer",
+  "repository": "https://github.com/COBRAXDOP/Aliza-Music-X3",
   "stack": "container",
   "buildpacks": [
    {
