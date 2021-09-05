@@ -33,7 +33,7 @@ Click the below button to watch the video tutorial on deploying
 
 ### Deploy To Railway 🚄</h5>
 
-[![Deploy+on+Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/COBRAXDOP/Aliza-Music-X3/tree/Aliza-Music-X3&envs=SESSION_NAME,BOT_TOKEN,BOT_USERNAME,BOT_NAME,SUPPORT_GROUP,PROJECT_NAME,ARQ_API_KEY,ASSISTANT_NAME,BG_IMAGE,UPDATES_CHANNEL,API_ID,PMPERMIT,API_HASH,SUDO_USERS,DURATION_LIMIT)
+[![Deploy+on+Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/COBRAXDOP/Aliza-Music-X3/tree/main&envs=SESSION_NAME,BOT_TOKEN,BOT_USERNAME,BOT_NAME,SUPPORT_GROUP,PROJECT_NAME,ARQ_API_KEY,ASSISTANT_NAME,BG_IMAGE,UPDATES_CHANNEL,API_ID,PMPERMIT,API_HASH,SUDO_USERS,DURATION_LIMIT)
 
 ###  GET STRING SESSION FROM REPL RUN
 
@@ -134,4 +134,6 @@ If you donlt like to play in linked channel:
 ### Credits
 #### Special Credits
 - [Rojserbest](http://github.com/rojserbes): Callsmusic Developer
+
+
 
