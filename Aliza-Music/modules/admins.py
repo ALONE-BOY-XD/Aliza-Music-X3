@@ -16,16 +16,16 @@
 
 
 from asyncio import QueueEmpty
-from AdityaPlayer.config import que
+from Aliza-Music.config import que
 from pyrogram import Client, filters
 from pyrogram.types import Message
 
-from AdityaPlayer.function.admins import set
-from AdityaPlayer.helpers.channelmusic import get_chat_id
-from AdityaPlayer.helpers.decorators import authorized_users_only, errors
-from AdityaPlayer.helpers.filters import command, other_filters
-from AdityaPlayer.services.callsmusic import callsmusic
-from AdityaPlayer.services.queues import queues
+from Aliza-Music.function.admins import set
+from Aliza-Music.helpers.channelmusic import get_chat_id
+from Aliza-Music.helpers.decorators import authorized_users_only, errors
+from Aliza-Music.helpers.filters import command, other_filters
+from Aliza-Music.services.callsmusic import callsmusic
+from Aliza-Music.services.queues import queues
 
 
 @Client.on_message(filters.command("adminreset"))
