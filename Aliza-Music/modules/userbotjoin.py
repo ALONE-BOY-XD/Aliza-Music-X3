@@ -18,9 +18,9 @@
 from pyrogram import Client, filters
 from pyrogram.errors import UserAlreadyParticipant
 import asyncio
-from AdityaPlayer.helpers.decorators import authorized_users_only, errors
-from AdityaPlayer.services.callsmusic.callsmusic import client as USER
-from AdityaPlayer.config import SUDO_USERS
+from Aliza-Music.helpers.decorators import authorized_users_only, errors
+from Aliza-Music.services.callsmusic.callsmusic import client as USER
+from Aliza-Music.config import SUDO_USERS
 
 @Client.on_message(filters.command(["userbotjoin"]) & ~filters.private & ~filters.bot)
 @authorized_users_only
