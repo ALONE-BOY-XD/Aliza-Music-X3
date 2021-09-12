@@ -35,8 +35,8 @@ from pyrogram.types import Message
 from youtube_search import YoutubeSearch
 from youtubesearchpython import SearchVideos
 
-from AdityaPlayer.config import DURATION_LIMIT
-from AdityaPlayer.modules.play import arq
+from Aliza-Music.config import DURATION_LIMIT
+from Aliza-Music.modules.play import arq
 
 
 @Client.on_message(filters.command("song") & ~filters.channel)
