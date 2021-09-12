@@ -31,30 +31,30 @@ from pyrogram.types import Voice
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from Python_ARQ import ARQ
 from youtube_search import YoutubeSearch
-from AdityaPlayer.modules.play import generate_cover
-from AdityaPlayer.modules.play import arq
-from AdityaPlayer.modules.play import cb_admin_check
-from AdityaPlayer.modules.play import transcode
-from AdityaPlayer.modules.play import convert_seconds
-from AdityaPlayer.modules.play import time_to_seconds
-from AdityaPlayer.modules.play import changeImageSize
-from AdityaPlayer.config import BOT_NAME as bn
-from AdityaPlayer.config import DURATION_LIMIT
-from AdityaPlayer.config import UPDATES_CHANNEL as updateschannel
-from AdityaPlayer.config import que
-from AdityaPlayer.function.admins import admins as a
-from AdityaPlayer.helpers.errors import DurationLimitError
-from AdityaPlayer.helpers.decorators import errors
-from AdityaPlayer.helpers.admins import get_administrators
-from AdityaPlayer.helpers.channelmusic import get_chat_id
-from AdityaPlayer.helpers.decorators import authorized_users_only
-from AdityaPlayer.helpers.filters import command, other_filters
-from AdityaPlayer.helpers.gets import get_file_name
-from AdityaPlayer.services.callsmusic import callsmusic
-from AdityaPlayer.services.callsmusic.callsmusic import client as USER
-from AdityaPlayer.services.converter.converter import convert
-from AdityaPlayer.services.downloaders import youtube
-from AdityaPlayer.services.queues import queues
+from Aliza-Music.modules.play import generate_cover
+from Aliza-Music.modules.play import arq
+from Aliza-Music.modules.play import cb_admin_check
+from Aliza-Music.modules.play import transcode
+from Aliza-Music.modules.play import convert_seconds
+from Aliza-Music.modules.play import time_to_seconds
+from Aliza-Music.modules.play import changeImageSize
+from Aliza-Music.config import BOT_NAME as bn
+from Aliza-Music.config import DURATION_LIMIT
+from Aliza-Music.config import UPDATES_CHANNEL as updateschannel
+from Aliza-Music.config import que
+from Aliza-Music.function.admins import admins as a
+from Aliza-Music.helpers.errors import DurationLimitError
+from Aliza-Music.helpers.decorators import errors
+from Aliza-Music.helpers.admins import get_administrators
+from Aliza-Music.helpers.channelmusic import get_chat_id
+from Aliza-Music.helpers.decorators import authorized_users_only
+from Aliza-Music.helpers.filters import command, other_filters
+from Aliza-Music.helpers.gets import get_file_name
+from Aliza-Music.services.callsmusic import callsmusic
+from Aliza-Music.services.callsmusic.callsmusic import client as USER
+from Aliza-Music.services.converter.converter import convert
+from Aliza-Music.services.downloaders import youtube
+from Aliza-Music.services.queues import queues
 
 chat_id = None
 
