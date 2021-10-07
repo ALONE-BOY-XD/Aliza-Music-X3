@@ -30,15 +30,15 @@ def _start(client, message):
             [
                 [
                     InlineKeyboardButton(
-                        "➕ Ʌɗɗ Ɱɘ ʈø Yøʋɤ Ɠɤøʋƥ ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
+                        "➕ 𝓐𝓓𝓓 𝓜𝓔 𝓣𝓞 𝓨𝓞𝓤𝓡 𝓖𝓡𝓞𝓤𝓟 ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
                 [
                     InlineKeyboardButton(
-                        "🌐 Ʋƥɗɑʈɘs", url=f"https://t.me/{UPDATES_CHANNEL}"), 
+                        "𝓚𝓘𝓛𝓛𝓔𝓡 𝓠𝓤𝓔𝓔𝓝", url=f"https://t.me/killer_queen_x_d"), 
                     InlineKeyboardButton(
-                        "💬 Sʋƥƥøɤʈ", url=f"https://t.me/{SUPPORT_GROUP}")
+                        "𝓚𝓘𝓛𝓛𝓔𝓡 𝓚𝓘𝓝𝓖", url=f"https://t.me/killer_KING_XD")
                 ],[
                     InlineKeyboardButton(
-                        "🤖 Ƈøŋʈɑƈʈ ʈø  Ɱƴ Øωɳɘɤ 🤖", url=f"https://t.me/{SOURCE_CODE}")
+                        "𝓒𝓗𝓐𝓣𝓣𝓘𝓝𝓖 𝓖𝓡𝓞𝓤𝓟", url=f"https://t.me/blinking_stars_op")
                 ]
             ]
         ),
@@ -53,7 +53,7 @@ async def gstart(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "💬 Sʋƥƥøɤʈ Ƈɦɑʈ", url=f"https://t.me/{SUPPORT_GROUP}"
+                        "𝓐𝓑𝓞𝓤𝓣 𝓚𝓘𝓛𝓛𝓔𝓡'𝓢", url=f"https://t.me/ABOUT_KILLER_KING"
                     )
                 ]
             ]
@@ -93,10 +93,10 @@ def map(pos):
     elif(pos==len(tr.HELP_MSG)-1):
         url = f"https://t.me/{SUPPORT_GROUP}"
         button = [
-            [InlineKeyboardButton("➕ Ʌɗɗ Ɱɘ ʈø Yøʋɤ Ɠɤøʋƥ ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
-            [InlineKeyboardButton(text = '🌐 Ʋƥɗɑʈɘs', url=f"https://t.me/{UPDATES_CHANNEL}"),
-             InlineKeyboardButton(text = '💬 Sʋƥƥøɤʈ', url=f"https://t.me/{SUPPORT_GROUP}")],
-            [InlineKeyboardButton(text = '🤖 Ƈøŋʈɑƈʈ ʈø Mƴ Øωɳɘɤ 🤖', url=f"https://{SOURCE_CODE}")],
+            [InlineKeyboardButton("➕ 𝓐𝓓𝓓 𝓜𝓔 𝓣𝓞 𝓨𝓞𝓤𝓡 𝓖𝓡𝓞𝓤𝓟 ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
+            [InlineKeyboardButton(text = '𝓚𝓘𝓛𝓛𝓔𝓡 𝓠𝓤𝓔𝓔𝓝', url=f"https://t.me/killer_queen_x_d"),
+             InlineKeyboardButton(text = '𝓚𝓘𝓛𝓛𝓔𝓡 𝓚𝓘𝓝𝓖', url=f"https://t.me/killer_KING_XD")],
+            [InlineKeyboardButton(text = '𝓒𝓗𝓐𝓣𝓣𝓘𝓝𝓖 𝓖𝓡𝓞𝓤𝓟', url=f"https://t.me/blinking_stars_op")],
             [InlineKeyboardButton(text = '◀️', callback_data = f"help+{pos-1}")]
         ]
     else:
@@ -111,7 +111,7 @@ def map(pos):
 @Client.on_message(filters.command("help") & ~filters.private & ~filters.channel)
 async def ghelp(_, message: Message):
     await message.reply_text(
-        f"""**🙋‍ Ɦɘɭɭø, I ɑɱ ɑɳ Ʌɗⱱɑɳƈɘɗ Ƥrɘɱɩʋɱ Ɱʉsɩƈ Ƥɭɑƴɘr Ɓøʈ Ƈrɘɑʈɘɗ Ɓƴ [ƇƠƁƦƛ](t.me/Xd_Lif). I Ƈɑɳ Ƥɭɑƴ Ɱʉsɩƈ ɩɳ Yøʋr Ƭɘɭɘʛrɑɱ Ƈɦɑɳɳɘɭ ør Ɠrøuƥ Vøɩƈɘ Ƈɦɑʈ ...**""",
+        f"""**🙋‍ Ɦɘɭɭø, I ɑɱ ɑɳ Ʌɗⱱɑɳƈɘɗ Ƥrɘɱɩʋɱ Ɱʉsɩƈ Ƥɭɑƴɘr Ɓøʈ Ƈrɘɑʈɘɗ Ɓƴ [𝓚𝓘𝓛𝓛𝓔𝓡 𝓠𝓤𝓔𝓔𝓝](t.me/KILLER_QUEEN_X_D). I Ƈɑɳ Ƥɭɑƴ Ɱʉsɩƈ ɩɳ Yøʋr Ƭɘɭɘʛrɑɱ Ƈɦɑɳɳɘɭ ør Ɠrøuƥ Vøɩƈɘ Ƈɦɑʈ ...**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
