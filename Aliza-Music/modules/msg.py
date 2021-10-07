@@ -17,7 +17,7 @@
 import os
 from Aliza-Music.config import SOURCE_CODE,ASSISTANT_NAME,PROJECT_NAME,SUPPORT_GROUP,UPDATES_CHANNEL
 class Messages():
-      START_MSG = "**👋 Ɦɘɭɭø [{}](tg://user?id={}),**\n\n**🤖 Ɩ ƛɱ ƛɳ Ʌɗⱱɑɳƈɘɗ Ƥɤɘɱɩʋɱ Ɱʋsɩƈ Ƥɭɑƴɘɤ Ɓøʈ Ƈɤɘɑʈɘɗ Ɓƴ [ƇƠƁƦƛ](t.me/Xd_Lif) ƒøɤ Ƥɭɑƴɩɳʛ Ɱʋsɩƈ ɩɳ Ƭɘɭɘʛɤɑɱ Ƈɦɑɳɳɘɭs & Ɠɤøʋƥs.**\n\n**✅ Sɘɳɗ Ɱɘ /help ƒøɤ Ɱøɤɘ Ɩɳƒø ...**"
+      START_MSG = "**👋 Ɦɘɭɭø [{}](tg://user?id={}),**\n\n**🤖 Ɩ ƛɱ ƛɳ Ʌɗⱱɑɳƈɘɗ Ƥɤɘɱɩʋɱ Ɱʋsɩƈ Ƥɭɑƴɘɤ Ɓøʈ Ƈɤɘɑʈɘɗ Ɓƴ [𝓚𝓘𝓛𝓛𝓔𝓡 𝓠𝓤𝓔𝓔𝓝](t.me/KILLER_QUEEN_X_D) ƒøɤ Ƥɭɑƴɩɳʛ Ɱʋsɩƈ ɩɳ Ƭɘɭɘʛɤɑɱ Ƈɦɑɳɳɘɭs & Ɠɤøʋƥs.**\n\n**✅ Sɘɳɗ Ɱɘ /help ƒøɤ Ɱøɤɘ Ɩɳƒø ...**"
       HELP_MSG = [
         ".",
 f"""
