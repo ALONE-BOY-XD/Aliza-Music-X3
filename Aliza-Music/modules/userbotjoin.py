@@ -50,7 +50,7 @@ async def addchannel(client, message):
     except Exception as e:
         print(e)
         await message.reply_text(
-            f"<b>🤖 Fɭøøɗ Eɤɤøɤ - Ɱɑɳʋɑɭɭƴ Ʌɗɗ Ʌssɩsʈɑɳƈɘ Usɘɤɓøʈ ʈø Yøʋɤ Ƈɦɑʈ øɤ Ƈøɳʈɑƈʈ ʈø Ɱʋsɩƈ Ɓøʈ Øωɳɘɤ ...</b>",
+            f"<b>🤖 Fɭøøɗ Eɤɤøɤ - Ɱɑɳʋɑɭɭƴ Ʌɗɗ Ʌssɩsʈɑɳƈɘ @killer_queen_assistant Usɘɤɓøʈ ʈø Yøʋɤ Ƈɦɑʈ øɤ Ƈøɳʈɑƈʈ ʈø Ɱʋsɩƈ Ɓøʈ Øωɳɘɤ ...</b>",
         )
         return
     await message.reply_text(
@@ -123,7 +123,7 @@ async def addcchannel(client, message):
     except Exception as e:
         print(e)
         await message.reply_text(
-            f"<b>🤖 Fɭøøɗ Eɤɤøɤ - Ɱɑɳʋɑɭɭƴ Ʌɗɗ Ʌssɩsʈɑɳƈɘ Usɘɤɓøʈ ʈø Yøʋɤ Ƈɦɑɳɳɘɭ øɤ Ƈøɳʈɑƈʈ ʈø Ɱʋsɩƈ Ɓøʈ Øωɳɘɤ ...</b>",
+            f"<b>🤖 Fɭøøɗ Eɤɤøɤ - Ɱɑɳʋɑɭɭƴ Ʌɗɗ Ʌssɩsʈɑɳƈɘ @killer_queen_assistant Usɘɤɓøʈ ʈø Yøʋɤ Ƈɦɑɳɳɘɭ øɤ Ƈøɳʈɑƈʈ ʈø Ɱʋsɩƈ Ɓøʈ Øωɳɘɤ ...</b>",
         )
         return
     await message.reply_text(
